@@ -5,7 +5,7 @@ This application has been created as a part of TSST course.
 |:--:|
 |*Network topology*|
 
-***To run application use [bat file](./run.bat)***  
+**To run application use ```(./run.bat)```**  
 
 Application consists of:
 - [x] Cable cloud for packet forwarding
@@ -13,7 +13,8 @@ Application consists of:
 - [ ] Nodes (routers)
 - [ ] Hosts
 
-*I was responsible for these two modules checked above* 
+*I was responsible for these two modules checked above*
+ 
 
 
 
