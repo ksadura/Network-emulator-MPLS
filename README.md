@@ -5,11 +5,11 @@ This application has been created as a part of TSST course.
 |:--:|
 |*Network topology*|
 
-**To run application use ```(./run.bat)```**  
+**To run application use ```run.bat```**  
 
 Application consists of:
 - [x] Cable cloud for packet forwarding
-- [x] Management system for management and configuration
+- [x] Management system for management and configuration with GUI
 - [ ] Nodes (routers)
 - [ ] Hosts
 
