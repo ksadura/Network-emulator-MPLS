@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NodeConfig>
+  <ManagementAddress>127.0.0.1</ManagementAddress>
+  <ManagementPort>333</ManagementPort>
+  <NodeName>R1</NodeName>
+  <NodeAddress>10.2.4.3</NodeAddress>
+  <CloudAddress>127.0.0.1</CloudAddress>
+  <CloudPort>444</CloudPort>
+</NodeConfig>

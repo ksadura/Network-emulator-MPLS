@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<HostConfig>
+    <HostName>H3</HostName>
+    <OutputPort>40</OutputPort>
+    <IP>10.1.1.7</IP>
+    <CloudIP>127.0.0.1</CloudIP>
+    <CloudPort>444</CloudPort>
+    <OtherHosts>
+        <HostCount>2</HostCount>
+        <Host0>10.1.1.9@H2</Host0>
+	<Host1>10.1.1.5@H1</Host1>
+        </OtherHosts>
+    </HostConfig>

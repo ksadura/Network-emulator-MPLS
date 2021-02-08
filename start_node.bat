@@ -1,0 +1,1 @@
+start .\NetworkNode\bin\Debug\netcoreapp3.1\NetworkNode.exe "./Resources/node4_config.xml"

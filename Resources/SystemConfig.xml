@@ -1,0 +1,35 @@
+﻿<system>
+  <port>333</port>
+  <address>127.0.0.1</address>
+  <hosts>
+    <h1>H1@10.1.1.5</h1>
+    <h2>H2@10.1.1.9</h2>
+    <h3>H3@10.1.1.7</h3>
+  </hosts>
+  <convert>
+    <r1>R1=10.2.4.3</r1>
+    <r2>R2=10.2.4.7</r2>
+    <r3>R3=10.2.4.8</r3>
+    <r4>R4=10.2.4.1</r4>
+    <r5>R5=10.2.4.6</r5>
+  </convert>
+  <default_routes>
+    <path1>ADD_MPLS_ENTRY@10.1.1.9@-@2@104@101@R1@-</path1>
+    <path2>ADD_MPLS_ENTRY@10.1.1.9@2@-@302@301@R3@-</path2>
+    <path3>ADD_MPLS_ENTRY@10.1.1.7@-@3@102@101@R1@-</path3>
+    <path4>ADD_MPLS_ENTRY@10.1.1.7@3@4@203@201@R2@-</path4>
+    <path5>ADD_MPLS_ENTRY@10.1.1.7@4@-@503@501@R5@-</path5>
+    <path6>ADD_MPLS_ENTRY@10.1.1.7@-@5@303@302@R3@-</path6>
+    <path7>ADD_MPLS_ENTRY@10.1.1.7@5@6@404@401@R4@-</path7>
+    <path8>ADD_MPLS_ENTRY@10.1.1.7@6@-@503@502@R5@-</path8>
+    <path9>ADD_MPLS_ENTRY@10.1.1.5@-@7@301@302@R3@-</path9>
+    <path10>ADD_MPLS_ENTRY@10.1.1.5@7@-@101@104@R1@-</path10>
+    <path11>ADD_MPLS_ENTRY@10.1.1.5@-@8@501@503@R5@-</path11>
+    <path12>ADD_MPLS_ENTRY@10.1.1.5@8@9@201@203@R2@-</path12>
+    <path13>ADD_MPLS_ENTRY@10.1.1.5@9@-@101@102@R1@-</path13>
+    <path14>ADD_MPLS_ENTRY@10.1.1.9@-@10@502@503@R5@-</path14>
+    <path15>ADD_MPLS_ENTRY@10.1.1.9@10@11@401@404@R4@-</path15>
+    <path16>ADD_MPLS_ENTRY@10.1.1.9@11@-@302@303@R3@-</path16>
+  </default_routes>
+  
+</system>

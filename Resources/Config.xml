@@ -1,0 +1,37 @@
+<cloud>
+    <port>444</port>
+    <address>127.0.0.1</address>
+    <FIB>
+      <columns>R_IN PORT_IN R_OUT PORT_OUT WORKING CAPACITY</columns>
+      <row1>R1 102 R2 201 1 150</row1>
+      <row2>R1 103 R4 402 1 150</row2>
+      <row3>R1 104 R3 301 1 150</row3>
+      <row4>R2 201 R1 102 1 150</row4>
+      <row5>R2 202 R4 403 1 150</row5>
+      <row6>R2 203 R5 501 1 150</row6>
+      <row7>R3 301 R1 104 1 150</row7>
+      <row8>R3 303 R4 401 1 150</row8>
+      <row9>R4 402 R1 103 1 150</row9>
+      <row10>R4 403 R2 202 1 150</row10>
+      <row11>R4 404 R5 502 1 150</row11>
+      <row12>R4 401 R3 303 1 150</row12>
+      <row13>R5 501 R2 203 1 150</row13>
+      <row14>R5 502 R4 404 1 150</row14>
+      <row15>R5 503 H3 40 1 150</row15>
+      <row16>R3 302 H2 30 1 150</row16>
+      <row17>R1 101 H1 20 1 150</row17>
+      <row18>H1 20 R1 101 1 150</row18>
+      <row19>H2 30 R3 302 1 150</row19>
+      <row20>H3 40 R5 503 1 150</row20>
+    </FIB>
+    <convert>
+      <h1>H1=10.1.1.5</h1>
+      <r1>R1=10.2.4.3</r1>
+      <r2>R2=10.2.4.7</r2>
+      <r3>R3=10.2.4.8</r3>
+      <r4>R4=10.2.4.1</r4>
+      <r5>R5=10.2.4.6</r5>
+      <h2>H2=10.1.1.9</h2>
+      <h3>H3=10.1.1.7</h3>
+    </convert>
+</cloud>
