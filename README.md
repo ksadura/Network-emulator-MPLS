@@ -24,7 +24,8 @@ Application consists of:
 * [Asynchronous server socket](https://docs.microsoft.com/pl-pl/dotnet/framework/network-programming/asynchronous-server-socket-example)
 * [MPLS RFC](https://tools.ietf.org/html/rfc3031)
  
-
+**Authors:**
+* Piotr Chojnowski, Kamil Dębek, Krzysztof Sadura (me)
 
 
 
