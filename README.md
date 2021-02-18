@@ -25,7 +25,7 @@ Application consists of:
 * [MPLS RFC](https://tools.ietf.org/html/rfc3031)
  
 **Authors:**
-* Piotr Chojnowski, Kamil Dębek, Krzysztof Sadura (me)
+* Piotr Chojnowski, Kamil Dębek, Krzysztof Sadura
 
 
 
