@@ -7,7 +7,6 @@ Application is written in C# language with the use of asynchronous and synchrono
  
 
  ![Topology](./Resources/tp3.png) 
-|:--:|
 |*Network topology*|
 
 **To run application use ```run.bat```**  
