@@ -6,7 +6,7 @@ We put much emphasis on the vital aspect of MPLS i.e. label: swapping, pushing a
 Application is written in C# language with the use of asynchronous and synchronous sockets from *System.Net.Sockets* library. 
  
 
-| ![Topology](./Resources/tp3.png) |
+ ![Topology](./Resources/tp3.png) 
 |:--:|
 |*Network topology*|
 
