@@ -5,9 +5,9 @@ This project aimed at showing how Multiprotocol Label Switching technology works
 We put much emphasis on the vital aspect of MPLS i.e. label: swapping, pushing and popping. 
 Application is written in C# language with the use of asynchronous and synchronous sockets from *System.Net.Sockets* library. 
  
-
- ![Topology](./Resources/tp3.png)
-*Network topology*
+| ![Topology](./Resources/tp3.png) |
+|:--:|
+|*Network topology*|
 
 **To run application use ```run.bat```**  
 
