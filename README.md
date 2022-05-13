@@ -9,7 +9,7 @@ Application consists of (checked modules created by myself):
 - [ ] Nodes (routers)
 - [ ] Hosts.
 
-Each instance of above modules (also depicted on Fig. 1) opens a seperate TCP socket for receiving and forwarding incoming MPLS packets. Application is written in .NET Core environment using C# language.
+Each instance of above modules (also depicted on Fig. 1) opens a seperate TCP socket for receiving and forwarding incoming MPLS packets. Application is written in .NET environment using C# language.
 | ![Topology](./Resources/tp-copy.png) |
 |:--:|
 |*Fig. 1. Network topology*|
