@@ -23,7 +23,7 @@ Each instance of above modules (also depicted on Fig. 1) opens a seperate TCP so
 * [MPLS RFC](https://tools.ietf.org/html/rfc3031)
  
 ## Authors
-* Piotr Chojnowski, Kamil Dębek, Krzysztof Sadura
+Piotr Chojnowski, Kamil Dębek, Krzysztof Sadura
 
 
 
