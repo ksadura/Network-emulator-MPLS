@@ -10,12 +10,13 @@ Application consists of (checked modules created by myself):
 - [ ] Hosts.
 
 Each instance of above modules (also depicted on Fig. 1) opens a seperate TCP socket for receiving and forwarding incoming MPLS packets. Application is written in .NET Core environment using C# language.
-| ![Topology](./Resources/tp.png) |
+| ![Topology](./Resources/tp-copy.png) |
 |:--:|
 |*Fig. 1. Network topology*|
 
 ## Usage
-To run application use ```run.bat``` file.
+* Build each project's solution: ```dotnet build <SolutionName.sln>```, so that ```~\bin``` folder is created
+* To run application use attached batch file: ```run.bat```
 
 ## References
 * [Asynchronous server socket](https://docs.microsoft.com/pl-pl/dotnet/framework/network-programming/asynchronous-server-socket-example)
