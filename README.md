@@ -1,12 +1,12 @@
-## Network emulator - MPLS
+# Network emulator - MPLS
 This application has been created as a part of TSST course.
 
-This project aimed at showing how Multiprotocol Label Switching technology works. 
+This project aimed at showing how Multiprotocol Label Switching Architecture technique works. 
 We put much emphasis on the vital aspect of MPLS i.e. label: swapping, pushing and popping. 
 Application is written in C# language with the use of asynchronous and synchronous sockets from *System.Net.Sockets* library. 
  
 
-| ![Topology](./Resources/tp1.png) |
+| ![Topology](./Resources/tp.png) |
 |:--:|
 |*Network topology*|
 
@@ -24,7 +24,8 @@ Application consists of:
 * [Asynchronous server socket](https://docs.microsoft.com/pl-pl/dotnet/framework/network-programming/asynchronous-server-socket-example)
 * [MPLS RFC](https://tools.ietf.org/html/rfc3031)
  
-
+**Authors:**
+* Piotr Chojnowski, Kamil Dębek, Krzysztof Sadura
 
 
 
